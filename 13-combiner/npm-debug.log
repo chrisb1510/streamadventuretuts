@@ -1,0 +1,167 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install', 'zlib' ]
+2 info using npm@2.1.4
+3 info using node@v0.10.32
+4 silly cache add args [ 'zlib', null ]
+5 verbose cache add spec zlib
+6 silly cache add parsed spec { raw: 'zlib',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'zlib',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed zlib@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'zlib', range: '*', hasData: false }
+11 verbose mapToRegistry name zlib
+12 verbose mapToRegistry uri https://registry.npmjs.org/zlib
+13 verbose addNameRange registry:https://registry.npmjs.org/zlib not in flight; fetching
+14 verbose request on initialization, where is /zlib
+15 verbose request after pass 1, where is /zlib
+16 verbose request url raw /zlib
+17 verbose request resolving registry [ 'https://registry.npmjs.org/', './zlib' ]
+18 verbose request after pass 2, where is https://registry.npmjs.org/zlib
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 14:59:45
+21 verbose request id dba00d88943980c9
+22 http request GET https://registry.npmjs.org/zlib
+23 http 200 https://registry.npmjs.org/zlib
+24 silly registry.get cb [ 200,
+24 silly registry.get   { date: 'Tue, 28 Oct 2014 14:59:45 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     etag: '"CNV983HRUYXCZU369A2RO56AD"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=60',
+24 silly registry.get     'content-length': '6082',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '0',
+24 silly registry.get     'x-served-by': 'cache-ams4121-AMS',
+24 silly registry.get     'x-cache': 'HIT',
+24 silly registry.get     'x-cache-hits': '1',
+24 silly registry.get     'x-timer': 'S1414508385.788888,VS0,VE97',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly addNameRange number 2 { name: 'zlib', range: '*', hasData: true }
+26 silly addNameRange versions [ 'zlib',
+26 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5' ] ]
+27 verbose addNamed zlib@1.0.5
+28 silly addNamed semver.valid 1.0.5
+29 silly addNamed semver.validRange 1.0.5
+30 verbose addRemoteTarball https://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz not in flight; adding
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz',
+31 verbose addRemoteTarball   '6e7c972fc371c645a6afb03ab14769def114fcc0' ]
+32 info retry fetch attempt 1 at 14:59:45
+33 info attempt registry request try #1 at 14:59:45
+34 http fetch GET https://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz
+35 http fetch 200 https://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz
+36 silly fetchAndShaCheck shasum 6e7c972fc371c645a6afb03ab14769def114fcc0
+37 verbose addTmpTarball /tmp/npm-17246-21d0251e/registry.npmjs.org/zlib/-/zlib-1.0.5.tgz not in flight; adding
+38 verbose addTmpTarball already have metadata; skipping unpack for zlib@1.0.5
+39 silly cache afterAdd zlib@1.0.5
+40 verbose afterAdd /home/chris/.npm/zlib/1.0.5/package/package.json not in flight; writing
+41 verbose afterAdd /home/chris/.npm/zlib/1.0.5/package/package.json written
+42 silly install resolved [ { name: 'zlib',
+42 silly install resolved     description: 'Simple, synchronous deflate/inflate for buffers',
+42 silly install resolved     version: '1.0.5',
+42 silly install resolved     homepage: 'https://github.com/kkaefer/node-zlib',
+42 silly install resolved     author: { name: 'Konstantin Käfer', email: 'kkaefer@gmail.com' },
+42 silly install resolved     repository: { type: 'git', url: 'git://github.com/kkaefer/node-zlib.git' },
+42 silly install resolved     engines: { node: '>=0.2.0' },
+42 silly install resolved     licenses: [ [Object] ],
+42 silly install resolved     main: './lib/zlib',
+42 silly install resolved     _npmJsonOpts:
+42 silly install resolved      { file: '/Users/kkaefer/.npm/zlib/1.0.5/package/package.json',
+42 silly install resolved        contributors: false,
+42 silly install resolved        serverjs: false,
+42 silly install resolved        wscript: true },
+42 silly install resolved     _id: 'zlib@1.0.5',
+42 silly install resolved     scripts: { preinstall: 'node-waf clean || true; node-waf configure build' },
+42 silly install resolved     dependencies: {},
+42 silly install resolved     devDependencies: {},
+42 silly install resolved     _engineSupported: true,
+42 silly install resolved     _npmVersion: '1.0.23',
+42 silly install resolved     _nodeVersion: 'v0.4.9',
+42 silly install resolved     _defaultsLoaded: true,
+42 silly install resolved     dist:
+42 silly install resolved      { shasum: '6e7c972fc371c645a6afb03ab14769def114fcc0',
+42 silly install resolved        tarball: 'http://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz' },
+42 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+42 silly install resolved     directories: {},
+42 silly install resolved     _shasum: '6e7c972fc371c645a6afb03ab14769def114fcc0',
+42 silly install resolved     _resolved: 'https://registry.npmjs.org/zlib/-/zlib-1.0.5.tgz',
+42 silly install resolved     _from: 'zlib@*' } ]
+43 info install zlib@1.0.5 into /home/chris/Desktop/learn/stream-adventure/combiner
+44 info installOne zlib@1.0.5
+45 verbose installOne of zlib to /home/chris/Desktop/learn/stream-adventure/combiner not in flight; installing
+46 verbose lock using /home/chris/.npm/_locks/zlib-edcef08214fec190.lock for /home/chris/Desktop/learn/stream-adventure/combiner/node_modules/zlib
+47 silly install write writing zlib 1.0.5 to /home/chris/Desktop/learn/stream-adventure/combiner/node_modules/zlib
+48 silly cache addNamed cb zlib@1.0.5
+49 verbose unbuild node_modules/zlib
+50 verbose gentlyRm vacuuming /home/chris/Desktop/learn/stream-adventure/combiner/node_modules/zlib
+51 verbose tar unpack /home/chris/.npm/zlib/1.0.5/package.tgz
+52 verbose tar unpacking to /home/chris/Desktop/learn/stream-adventure/combiner/node_modules/zlib
+53 verbose gentlyRm vacuuming /home/chris/Desktop/learn/stream-adventure/combiner/node_modules/zlib
+54 silly gunzTarPerm modes [ '775', '664' ]
+55 silly gunzTarPerm extractEntry .gitignore
+56 silly gunzTarPerm modified mode [ '.gitignore', 420, 436 ]
+57 silly gunzTarPerm extractEntry configure
+58 silly gunzTarPerm modified mode [ 'configure', 493, 509 ]
+59 silly gunzTarPerm extractEntry index.js
+60 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+61 silly gunzTarPerm extractEntry LICENSE
+62 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+63 silly gunzTarPerm extractEntry Makefile
+64 silly gunzTarPerm modified mode [ 'Makefile', 420, 436 ]
+65 silly gunzTarPerm extractEntry package.json
+66 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+67 silly gunzTarPerm extractEntry README.md
+68 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+69 silly gunzTarPerm extractEntry wscript
+70 silly gunzTarPerm modified mode [ 'wscript', 420, 436 ]
+71 silly gunzTarPerm extractEntry lib/zlib.js
+72 silly gunzTarPerm modified mode [ 'lib/zlib.js', 420, 436 ]
+73 silly gunzTarPerm extractEntry src/node-zlib.cc
+74 silly gunzTarPerm modified mode [ 'src/node-zlib.cc', 420, 436 ]
+75 silly gunzTarPerm extractEntry test/deflate.test.js
+76 silly gunzTarPerm modified mode [ 'test/deflate.test.js', 420, 436 ]
+77 silly gunzTarPerm extractEntry test/inflate.test.js
+78 silly gunzTarPerm modified mode [ 'test/inflate.test.js', 420, 436 ]
+79 info preinstall zlib@1.0.5
+80 verbose unsafe-perm in lifecycle true
+81 info zlib@1.0.5 Failed to exec preinstall script
+82 verbose unlock done using /home/chris/.npm/_locks/zlib-edcef08214fec190.lock for /home/chris/Desktop/learn/stream-adventure/combiner/node_modules/zlib
+83 verbose stack Error: zlib@1.0.5 preinstall: `node-waf clean || true; node-waf configure build`
+83 verbose stack Exit status 127
+83 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:212:16)
+83 verbose stack     at ChildProcess.emit (events.js:98:17)
+83 verbose stack     at maybeClose (child_process.js:756:16)
+83 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:823:5)
+84 verbose pkgid zlib@1.0.5
+85 verbose cwd /home/chris/Desktop/learn/stream-adventure/combiner
+86 error Linux 3.13.0-37-generic
+87 error argv "node" "/usr/bin/npm" "install" "zlib"
+88 error node v0.10.32
+89 error npm  v2.1.4
+90 error code ELIFECYCLE
+91 error zlib@1.0.5 preinstall: `node-waf clean || true; node-waf configure build`
+91 error Exit status 127
+92 error Failed at the zlib@1.0.5 preinstall script.
+92 error This is most likely a problem with the zlib package,
+92 error not with npm itself.
+92 error Tell the author that this fails on your system:
+92 error     node-waf clean || true; node-waf configure build
+92 error You can get their info via:
+92 error     npm owner ls zlib
+92 error There is likely additional logging output above.
+93 verbose exit [ 1, true ]
+94 verbose unbuild node_modules/zlib
+95 info preuninstall zlib@1.0.5
+96 info uninstall zlib@1.0.5
+97 verbose unbuild rmStuff zlib@1.0.5 from /home/chris/Desktop/learn/stream-adventure/combiner/node_modules
+98 info postuninstall zlib@1.0.5
+99 verbose gentlyRm vacuuming /home/chris/Desktop/learn/stream-adventure/combiner/node_modules/zlib
+100 silly gentlyRm purging /home/chris/Desktop/learn/stream-adventure/combiner/node_modules/zlib
+101 silly gentlyRm quitting because other entries in /home/chris/Desktop/learn/stream-adventure/combiner/node_modules

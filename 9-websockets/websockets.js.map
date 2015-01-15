@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "websockets.js",
+  "sourceRoot": "",
+  "sources": [
+    "websockets.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAEA;AAAA,MAAA,UAAA;;AAAA,EAAA,EAAA,GAAK,OAAA,CAAQ,kBAAR,CAAL,CAAA;;AAAA,EACA,MAAA,GAAS,EAAA,CAAG,qBAAH,CADT,CAAA;;AAAA,EAEA,MAAM,CAAC,KAAP,CAAa,SAAb,CAFA,CAAA;AAAA"
+}

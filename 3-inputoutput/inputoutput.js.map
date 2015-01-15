@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "inputoutput.js",
+  "sourceRoot": "",
+  "sources": [
+    "inputoutput.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAC,OAAO,CAAC,KAAM,CAAC,IAAhB,CAAqB,OAAO,CAAC,MAA7B,CAAA,CAAA;AAAA"
+}

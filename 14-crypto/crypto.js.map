@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "crypto.js",
+  "sourceRoot": "",
+  "sources": [
+    "crypto.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA,aAAA;;AAAA,EAAA,KAAA,GAAQ,OAAA,CAAQ,QAAR,CAAR,CAAA;;AAAA,EACA,MAAA,GAAS,KAAK,CAAC,cAAN,CAAqB,QAArB,EAA+B,OAAO,CAAC,IAAK,CAAA,CAAA,CAA5C,CADT,CAAA;;AAAA,EAEA,OAAO,CAAC,KAAK,CAAC,IAAd,CAAmB,MAAnB,CAA0B,CAAC,IAA3B,CAAgC,OAAO,CAAC,MAAxC,CAFA,CAAA;AAAA"
+}

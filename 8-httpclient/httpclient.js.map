@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "httpclient.js",
+  "sourceRoot": "",
+  "sources": [
+    "httpclient.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA,UAAA;;AAAA,EAAA,OAAA,GAAU,OAAA,CAAQ,SAAR,CAAV,CAAA;;AAAA,EACA,CAAA,GAAI,OAAO,CAAC,IAAR,CAAa,uBAAb,CADJ,CAAA;;AAAA,EAEA,OAAO,CAAC,KAAK,CAAC,IAAd,CAAmB,CAAnB,CACA,CAAC,IADD,CACM,OAAO,CAAC,MADd,CAFA,CAAA;AAAA"
+}

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "beepboop.js",
+  "sourceRoot": "",
+  "sources": [
+    "beepboop.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,OAAO,CAAC,GAAR,CAAY,WAAZ,CAAA,CAAA;AAAA"
+}
